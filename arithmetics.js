@@ -8,28 +8,28 @@ let divFinal = document.getElementById('final')
 // divFinal.innerHTML = result;
 
 
-//simulating grade calculations
-// let cat_1 = 22;
-// let cat_2 = 4;
-// let final_exam = 47;
-// let avg_cat = (cat_1 + cat_2) / 2
-// let final_mark = avg_cat + final_exam;
-// if(final_mark >= 70){
-//     alert('Grade is A')
-// }
-// else if(final_mark >= 60){
-//     alert('Grade is B')
-// }
-// else if(final_mark >= 50){
-//     alert('Grade is C')
-// }
-// else if(final_mark >= 40) {
-//     alert('Grade is D')
-// }
-// else{
-//     alert('F')
-// }
-// divFinal.innerHTML = final_mark
+// simulating grade calculations
+let cat_1 = 22;
+let cat_2 = 4;
+let final_exam = 47;
+let avg_cat = (cat_1 + cat_2) / 2
+let final_mark = avg_cat + final_exam;
+if(final_mark >= 70){
+    alert('Grade is A')
+}
+else if(final_mark >= 60){
+    alert('Grade is B')
+}
+else if(final_mark >= 50){
+    alert('Grade is C')
+}
+else if(final_mark >= 40) {
+    alert('Grade is D')
+}
+else{
+    alert('F')
+}
+divFinal.innerHTML = final_mark
 
 
 
