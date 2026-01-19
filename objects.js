@@ -1,3 +1,4 @@
+// key-value pairs
 
 const student = {
     name: 'JStar Jossy',
@@ -19,3 +20,4 @@ const student = {
 console.log(student.name)
 student.applyBursary()
 student.applyBursary()
+console.log(student)

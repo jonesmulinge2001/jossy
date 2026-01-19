@@ -10,16 +10,16 @@
 // }
 
 
-// let milk_price = prompt('Enter the price of milk: ')
-// let bread_price = prompt('Enter the price for bread: ')
-// let total = (Number(milk_price + bread_price));
-// if(total > 100)
-//     alert('Smart shopping')
-// else if(total < 70)
-//     alert('Up your game')
-// else{
-//     alert('Request for help')
-// }
+let milk_price = prompt('Enter the price of milk: ')
+let bread_price = prompt('Enter the price for bread: ')
+let totalc = (Number(milk_price + bread_price));
+if(totalc > 100)
+    alert('Smart shopping')
+else if(totalc < 70)
+    alert('Up your game')
+else{
+    alert('Request for help')
+}
 
 // let username = prompt('Enter your username: ');
 // let name1 = 'Jossy';
